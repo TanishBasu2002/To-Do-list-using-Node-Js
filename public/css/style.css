@@ -7,7 +7,10 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #eee; }
+  background-color: #E4E9FD;
+  background-image: -webkit-linear-gradient(65deg, #6769d3 50%, #E4E9FD 50%);
+  min-height: 900px;
+  font-family: 'helvetica neue'; }
 
 .container {
   display: flex;
@@ -19,7 +22,7 @@ body {
       padding: 1rem; } }
   .container .content {
     padding: 1rem 2rem;
-    background-color: rgba(180, 154, 231, 0.667);
+    background-color: rgba(159, 154, 231, 0.667);
     border-radius: 4px; }
     .container .content-title h1 {
       font-size: 2rem;
@@ -40,7 +43,7 @@ body {
         padding: 10px 15px;
         border: none;
         outline: none;
-        background-color: violet;
+        background-color: rgb(141, 130, 238);
         border-radius: 4px;
         transition: 0.3s;
         font-size: 1rem;
@@ -53,7 +56,7 @@ body {
         border-radius: 5px;
         color: #fff; }
         .container .content-main a:hover {
-          background-color: #7e447e;
+          background-color: #48447e;
           color: #fff; }
     .container .content-title, .container .content-main {
       margin-bottom: 2rem; }
@@ -80,7 +83,7 @@ body {
           padding: 10px 15px;
           border: none;
           outline: none;
-          background-color: violet;
+          background-color: rgb(146, 130, 238);
           border-radius: 4px;
           transition: 0.3s;
           font-size: 1rem;
@@ -90,7 +93,7 @@ body {
           text-align: center;
           margin-bottom: 5px; }
           .container .content-list .list-item-action a:hover {
-            background-color: #7e447e;
+            background-color: #48447e;
             color: #fff; }
         .container .content-list .list-item-action form button {
           margin-left: 1rem;
@@ -98,7 +101,7 @@ body {
           padding: 10px 15px;
           border: none;
           outline: none;
-          background-color: violet;
+          background-color: rgb(141, 130, 238);
           border-radius: 4px;
           transition: 0.3s;
           font-size: 1rem;
@@ -107,7 +110,7 @@ body {
           text-decoration: none;
           text-align: center; }
           .container .content-list .list-item-action form button:hover {
-            background-color: #7e447e;
+            background-color: #48447e;
             color: #fff; }
   .container .add-todo {
     padding: 1rem 2rem;
@@ -125,7 +128,7 @@ body {
     .container .add-todo-title h1 {
       margin-bottom: 8px; }
     .container .add-todo-title p {
-      color: #ff1e00;
+      color: #0400ff;
       font-style: italic;
       font-size: 1.3rem; }
     .container .add-todo-main form {
@@ -144,7 +147,7 @@ body {
         padding: 10px;
         border: none;
         outline: none;
-        background-color: violet;
+        background-color: rgb(141, 130, 238);
         border-radius: 4px;
         transition: 0.3s;
         font-size: 1rem;
@@ -154,7 +157,7 @@ body {
         text-align: center;
         padding: 0.5rem 1rem; }
         .container .add-todo-main form button:hover {
-          background-color: #7e447e;
+          background-color: #48447e;
           color: #fff; }
     .container .add-todo-main a {
       margin-left: 1rem;
@@ -162,7 +165,7 @@ body {
       padding: 10px 15px;
       border: none;
       outline: none;
-      background-color: violet;
+      background-color: rgb(141, 130, 238);
       border-radius: 4px;
       transition: 0.3s;
       font-size: 1rem;
@@ -173,11 +176,11 @@ body {
       width: 100%;
       margin: 0; }
       .container .add-todo-main a:hover {
-        background-color: #7e447e;
+        background-color: #48447e;
         color: #fff; }
   .container .edit-todo {
     padding: 1rem 2rem;
-    background-color: rgba(180, 154, 231, 0.667);
+    background-color: rgba(162, 154, 231, 0.667);
     border-radius: 4px;
     width: 40%; }
     @media screen and (max-width: 900px) {
@@ -191,7 +194,7 @@ body {
     .container .edit-todo-title h1 {
       margin-bottom: 8px; }
     .container .edit-todo-title p {
-      color: #ff1e00;
+      color: #1100ff;
       font-style: italic;
       font-size: 1.3rem; }
     .container .edit-todo-main form {
@@ -210,7 +213,7 @@ body {
         padding: 10px;
         border: none;
         outline: none;
-        background-color: violet;
+        background-color: rgb(130, 137, 238);
         border-radius: 4px;
         transition: 0.3s;
         font-size: 1rem;
@@ -220,7 +223,7 @@ body {
         text-align: center;
         padding: 0.5rem 1rem; }
         .container .edit-todo-main form button:hover {
-          background-color: #7e447e;
+          background-color: #48447e;
           color: #fff; }
     .container .edit-todo-main a {
       margin-left: 1rem;
@@ -228,7 +231,7 @@ body {
       padding: 10px 15px;
       border: none;
       outline: none;
-      background-color: violet;
+      background-color: rgb(130, 137, 238);
       border-radius: 4px;
       transition: 0.3s;
       font-size: 1rem;
@@ -239,7 +242,7 @@ body {
       width: 100%;
       margin: 0; }
       .container .edit-todo-main a:hover {
-        background-color: #7e447e;
+        background-color: #48447e;
         color: #fff; }
   .container .not-found {
     height: 90vh;
@@ -251,5 +254,6 @@ body {
       font-size: 5rem; }
     .container .not-found h3 {
       font-size: 3rem; }
+
 
 /*# sourceMappingURL=style.css.map */

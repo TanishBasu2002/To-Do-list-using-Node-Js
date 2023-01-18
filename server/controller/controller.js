@@ -29,7 +29,7 @@ exports.addTodo = async function (req, res) {
     res.render("add-todo", {
       title: "Add Todo",
       layout: "layouts/mainLayout",
-      error: "Nama todo tidak boleh sama!",
+      error: "Cannot Add",
     });
     return false;
   } else { 
@@ -60,7 +60,7 @@ exports.editTodo = async function (req, res) {
     res.render("edit-todo", {
       title: "Edit Todo",
       layout: "layouts/mainLayout",
-      error: "Nama todo tidak boleh sama!",
+      error: "Can't edit",
       todo: req.body,
     });
     return false;

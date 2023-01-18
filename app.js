@@ -5,7 +5,7 @@ const methodOverride = require("method-override");
 const connectDB = require("./server/database/database");
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 4000;
 
 // Set ejs
 app.set("views", __dirname + "/views");
@@ -23,6 +23,6 @@ connectDB();
 // router
 app.use(require("./server/routes/routes"));
 
-app.listen(port, function () {
+app.listen(4000, function () {
   console.log(`Server is listening on http://localhost:${port}`);
 });

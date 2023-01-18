@@ -1,8 +1,9 @@
 const mongoose = require("mongoose");
-
+mongoose.set("strictQuery", false);
+const url="mongodb+srv://TanishBasu:test1234@cluster0.qrmooxl.mongodb.net/todolistDB";
 const connectDB = async function () {
   try {
-    const con = await mongoose.connect(process.env.MONGO_URI, {
+    const con = await mongoose.connect(url, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
